@@ -8,19 +8,19 @@ ssrf-redis.py :  python2.x 3.x
 rogue-server.py :  python2.x  (lazy
 
 ## Usage
-implememt for demo.
+Implememt for demo.
 
-plz read generate_payload function and change payload.
+Please read generate_payload function and change payload.
 
-for rce usage:
+For rce usage:
 
-1. change lhost, lport and command, then    
+1. Change lhost, lport and command, then    
 `> python ssrf-redis.py`    
 `> gopher://xxxxx`     
 
-2. triger ssrf
+2. Triger ssrf
 
-3. meanwhile on vps    
+3. Meanwhile on vps    
 `> python rogue-server.py`   
 `> Accepted connection from 192.168.x.x`
 
